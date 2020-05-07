@@ -1,0 +1,14 @@
+h1 { font-family: Lato; }
+.root{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  width:100%;
+}
+.wrapper{
+  border:1px solid black;
+  width: auto;
+  display:inline-block;
+  align-items: start;
+}

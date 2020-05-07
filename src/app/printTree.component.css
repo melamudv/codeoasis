@@ -1,0 +1,30 @@
+h1 { font-family: Lato; }
+.firstLevel {
+  text-align: center;
+  width: auto;
+  border: 1px solid #000;
+  padding:10px;
+  margin:10px;
+  flex-direction: row;
+  justify-content: center;
+}
+.wrapper{
+  display: flex;
+
+}
+::ng-deep .level{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  padding:10px;
+  margin:10px;
+
+}
+::ng-deep .inner{
+  width: auto;
+  text-align: center;
+  border:1px solid black;
+  margin:10px;
+  padding:10px;
+}
+
