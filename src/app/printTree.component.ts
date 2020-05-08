@@ -22,9 +22,9 @@ export class PrintTreeComponent {
 
     findNode(node){
         this.printTree = [];
-        this.printTree.push(`<div class="firstLevel">${node.label}</div>`);
+        this.printTree.push(`<div class="firstLevel">${node.label}`);
         this.innerChildren(node);
-
+        this.printTree.push(`</div>`);
     }
     innerChildren(node){
 
@@ -38,5 +38,6 @@ export class PrintTreeComponent {
         });
 
         this.printTree.push(`</div>`);
+
     }
 }

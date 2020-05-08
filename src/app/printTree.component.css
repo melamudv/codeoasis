@@ -1,5 +1,5 @@
 h1 { font-family: Lato; }
-.firstLevel {
+::ng-deep .firstLevel {
   text-align: center;
   width: auto;
   border: 1px solid #000;
